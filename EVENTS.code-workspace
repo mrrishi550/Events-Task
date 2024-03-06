@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../EVENTS"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Events Task"
+  }
+}

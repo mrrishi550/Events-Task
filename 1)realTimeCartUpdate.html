@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>(1) Real Time Cart Update</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-secondary">
+    <center>
+      <h1>ADD YOUR ITEMS TO CART</h1>
+    </center>
+    <div class="container bg-danger w-50 rounded-4 shadow">
+      <h2>APPLE</h2>
+      <p>
+        1 DOZEN OF KASHMIR APPLES 50% OFF &nbsp;<button
+          class="border-0 rounded-3 p-4 mb-4"
+          onclick="addToCart('Apple')"
+        >
+          ADD ITEM TO CART
+        </button>
+      </p>
+    </div>
+    <div class="container bg-warning w-50 rounded-4 shadow">
+      <h2>ORANGE</h2>
+      <p>
+        1 DOZEN OF ORANGE 50% OFF &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp;<button
+          class="border-0 rounded-3 p-4 mb-4"
+          onclick="addToCart('Orange')"
+        >
+          ADD ITEM TO CART
+        </button>
+      </p>
+    </div>
+    <div class="container bg-info w-50 rounded-4 shadow">
+      <h2>GRAPES</h2>
+      <p>
+        1 DOZEN OF GRAPES 50% OFF &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp;&nbsp; &nbsp; &nbsp;<button
+          class="border-0 rounded-3 p-4 mb-4"
+          onclick="addToCart('Grapes')"
+        >
+          ADD ITEM TO CART
+        </button>
+      </p>
+    </div>
+    <div class="container bg-success w-50 rounded-4 shadow">
+      <h2>PINE APPLE</h2>
+      <p>
+        1 DOZEN OF PINE APPLE 50% OFF &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+        &nbsp;<button
+          class="border-0 rounded-3 p-4 mb-4"
+          onclick="addToCart('Pine apple')"
+        >
+          ADD ITEM TO CART
+        </button>
+      </p>
+    </div>
+    <div class="container bg-primary w-50 rounded-4 shadow">
+      <h2>Mango</h2>
+      <p>
+        1 DOZEN OF SALEM APPLES 50% OFF &nbsp; &nbsp; &nbsp; &nbsp;<button
+          class="border-0 rounded-3 p-4 mb-4"
+          onclick="addToCart('Apple')"
+        >
+          ADD ITEM TO CART
+        </button>
+      </p>
+    </div>
+    <script>
+      function addToCart(product) {
+        alert(`Added ${product} to cart`);
+      }
+    </script>
+  </body>
+</html>
